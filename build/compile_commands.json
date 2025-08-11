@@ -1,0 +1,26 @@
+[
+{
+  "directory": "C:/Rabah/9raya/C++/Particle explosion/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/particleExplosion.dir/includes_CXX.rsp -g -o CMakeFiles\\particleExplosion.dir\\main.cpp.obj -c \"C:\\Rabah\\9raya\\C++\\Particle explosion\\main.cpp\"",
+  "file": "C:/Rabah/9raya/C++/Particle explosion/main.cpp",
+  "output": "CMakeFiles/particleExplosion.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Rabah/9raya/C++/Particle explosion/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/particleExplosion.dir/includes_CXX.rsp -g -o CMakeFiles\\particleExplosion.dir\\Screen.cpp.obj -c \"C:\\Rabah\\9raya\\C++\\Particle explosion\\Screen.cpp\"",
+  "file": "C:/Rabah/9raya/C++/Particle explosion/Screen.cpp",
+  "output": "CMakeFiles/particleExplosion.dir/Screen.cpp.obj"
+},
+{
+  "directory": "C:/Rabah/9raya/C++/Particle explosion/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/particleExplosion.dir/includes_CXX.rsp -g -o CMakeFiles\\particleExplosion.dir\\Particles.cpp.obj -c \"C:\\Rabah\\9raya\\C++\\Particle explosion\\Particles.cpp\"",
+  "file": "C:/Rabah/9raya/C++/Particle explosion/Particles.cpp",
+  "output": "CMakeFiles/particleExplosion.dir/Particles.cpp.obj"
+},
+{
+  "directory": "C:/Rabah/9raya/C++/Particle explosion/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/particleExplosion.dir/includes_CXX.rsp -g -o CMakeFiles\\particleExplosion.dir\\Swarm.cpp.obj -c \"C:\\Rabah\\9raya\\C++\\Particle explosion\\Swarm.cpp\"",
+  "file": "C:/Rabah/9raya/C++/Particle explosion/Swarm.cpp",
+  "output": "CMakeFiles/particleExplosion.dir/Swarm.cpp.obj"
+}
+]

@@ -1,0 +1,85 @@
+CMakeFiles/particleExplosion.dir/Screen.cpp.obj: \
+ C:\Rabah\9raya\C++\Particle\ explosion\Screen.cpp \
+ C:\Rabah\9raya\C++\Particle\ explosion\Screen.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_stdinc.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_platform_defines.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h \
+ C:/msys64/ucrt64/include/stdarg.h \
+ C:/msys64/ucrt64/include/_mingw_stdarg.h \
+ C:/msys64/ucrt64/include/vadefs.h C:/msys64/ucrt64/include/_mingw.h \
+ C:/msys64/ucrt64/include/_mingw_mac.h \
+ C:/msys64/ucrt64/include/_mingw_secapi.h \
+ C:/msys64/ucrt64/include/sdks/_mingw_ddk.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
+ C:/msys64/ucrt64/include/stdint.h C:/msys64/ucrt64/include/crtdefs.h \
+ C:/msys64/ucrt64/include/corecrt.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
+ C:/msys64/ucrt64/include/stddef.h C:/msys64/ucrt64/include/string.h \
+ C:/msys64/ucrt64/include/sec_api/string_s.h \
+ C:/msys64/ucrt64/include/wchar.h \
+ C:/msys64/ucrt64/include/corecrt_stdio_config.h \
+ C:/msys64/ucrt64/include/corecrt_wstdlib.h \
+ C:/msys64/ucrt64/include/_mingw_off_t.h \
+ C:/msys64/ucrt64/include/_mingw_stat64.h \
+ C:/msys64/ucrt64/include/swprintf.inl \
+ C:/msys64/ucrt64/include/sec_api/wchar_s.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_begin_code.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_close_code.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_assert.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_asyncio.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_atomic.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_audio.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_endian.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_error.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_mutex.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_thread.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_properties.h \
+ C:/msys64/ucrt64/include/process.h \
+ C:/msys64/ucrt64/include/corecrt_startup.h \
+ C:/msys64/ucrt64/include/sys/types.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_iostream.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_bits.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_blendmode.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_camera.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_pixels.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_surface.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_rect.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_clipboard.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_cpuinfo.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_dialog.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_video.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_events.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_gamepad.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_guid.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_joystick.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_power.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_sensor.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_keyboard.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_keycode.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_scancode.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_mouse.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_pen.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_touch.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_filesystem.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_gpu.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_haptic.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_hidapi.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_hints.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_init.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_loadso.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_locale.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_log.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_messagebox.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_metal.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_misc.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_platform.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_process.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_render.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_storage.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_system.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_time.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_timer.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_tray.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_version.h \
+ C:/Rabah/9raya/C++/Libs/SDL3-devel-3.2.14-mingw/SDL3-3.2.14/x86_64-w64-mingw32/include/SDL3/SDL_oldnames.h

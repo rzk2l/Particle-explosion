@@ -1,0 +1,3 @@
+C:\Programs\cmake-4.0.1-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\particleExplosion.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\particleExplosion.dir/objects.a @CMakeFiles\particleExplosion.dir\objects1.rsp
+C:\msys64\ucrt64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\particleExplosion.dir/objects.a -Wl,--no-whole-archive -o particleExplosion.exe -Wl,--out-implib,libparticleExplosion.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\particleExplosion.dir\linkLibs.rsp
