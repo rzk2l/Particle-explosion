@@ -8,7 +8,7 @@ struct Particles{
     double m_direction;
 public:
     Particles();
-    void update();
+    void update(int timeInterval);
     //~Particles();
 };
 

@@ -8,11 +8,12 @@ public:
     const static int N_PARTICLES = 2500;
 private:
     Particles* m_pParticle;
+    int lastTime;
 
 public:
     Swarm();
     ~Swarm();
-    void update();
+    void update(int elapsedTime);
     const Particles* const getParticles(){  return m_pParticle; }
 };
 

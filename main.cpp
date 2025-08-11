@@ -27,7 +27,7 @@ int main(){
         unsigned char blue = (1 + sin(elapsed*0.0003))*127.5;
 
         screen.clear();
-        swarm.update();
+        swarm.update(elapsed);
         const Particles* const pParticles = swarm.getParticles();
 
         for(int i = 0; i < Swarm::N_PARTICLES; ++i){
