@@ -2,7 +2,7 @@
 #include <stdlib.h>
 using namespace std;
 
-Particles::Particles() : m_x(0), m_y(0) {
+Particles::Particles(){
     m_x = ((2.0*rand())/RAND_MAX) - 1;
     m_y = ((2.0*rand())/RAND_MAX) - 1;
 
