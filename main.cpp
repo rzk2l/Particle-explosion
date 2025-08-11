@@ -26,7 +26,6 @@ int main(){
         unsigned char green = (1 + sin(elapsed*0.0002))*127.5;
         unsigned char blue = (1 + sin(elapsed*0.0003))*127.5;
 
-        screen.clear();
         swarm.update(elapsed);
         const Particles* const pParticles = swarm.getParticles();
 
@@ -38,6 +37,8 @@ int main(){
 
             screen.setPixel(x,y, red, green, blue);
         }
+
+        screen.boxBlur();
 
         // Update particles
         screen.update();
