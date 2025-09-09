@@ -6,6 +6,8 @@ struct Particles{
     double m_y;
     double m_speed;
     double m_direction;
+private:
+    void init();
 public:
     Particles();
     void update(int timeInterval);
