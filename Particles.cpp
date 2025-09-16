@@ -1,24 +1,37 @@
 #include "Particles.h"
+#include <math.h>
 #include <stdlib.h>
 using namespace std;
 
-Particles::Particles(){
-    m_x = ((2.0*rand())/RAND_MAX) - 1;
-    m_y = ((2.0*rand())/RAND_MAX) - 1;
-
-    m_xSpeed = 0.0005*((2.0*rand())/RAND_MAX - 1);
-    m_ySpeed = 0.0005*((2.0*rand())/RAND_MAX - 1);
+Particles::Particles() : m_x(0), m_y(0) {
+    init();
 }
 
-void Particles::update(){
-    m_x += m_xSpeed;
-    m_y += m_ySpeed;
+void Particles::init(){
+    m_x = 0;
+    m_y = 0;
+    m_direction = (2*M_PI*rand())/RAND_MAX;
+    m_speed = (0.03*rand())/RAND_MAX;
 
-    if (m_x < -1.0 || m_x >= 1.0){
-        m_xSpeed = -m_xSpeed;
+    m_speed *= m_speed;
+}
+
+void Particles::update(int timeInterval){
+
+    m_direction += timeInterval*0.0001;
+
+    double xSpeed = m_speed*cos(m_direction);
+    double ySpeed = m_speed*sin(m_direction);
+
+    m_x += xSpeed * timeInterval;
+    m_y += ySpeed * timeInterval;
+
+    if (m_x < -1 || m_x > 1 || m_y < -1 || m_y > 1){
+        init();
     }
-    if (m_y <= -1.0 || m_y >= 1.0){
-        m_ySpeed = -m_ySpeed;
+
+    if(rand() < RAND_MAX/100){
+        init();
     }
 }
 

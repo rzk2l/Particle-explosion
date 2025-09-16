@@ -26,18 +26,19 @@ int main(){
         unsigned char green = (1 + sin(elapsed*0.0002))*127.5;
         unsigned char blue = (1 + sin(elapsed*0.0003))*127.5;
 
-        screen.clear();
-        swarm.update();
+        swarm.update(elapsed);
         const Particles* const pParticles = swarm.getParticles();
 
         for(int i = 0; i < Swarm::N_PARTICLES; ++i){
             Particles particle = pParticles[i];
 
             int x = (particle.m_x + 1)*(Screen::SCREEN_WIDTH/2);
-            int y = (particle.m_y + 1)*(Screen::SCREEN_HEIGHT/2);
+            int y = particle.m_y * (Screen::SCREEN_WIDTH/2) + (Screen::SCREEN_HEIGHT/2);
 
             screen.setPixel(x,y, red, green, blue);
         }
+
+        screen.boxBlur();
 
         // Update particles
         screen.update();
